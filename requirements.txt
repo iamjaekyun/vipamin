@@ -1,0 +1,11 @@
+captum
+matplotlib
+fvcore
+grad-cam
+timm==0.4.12
+ml_collections
+scikit-learn
+iopath
+simplejson
+torch-intermediate-layer-getter
+gpuqueue
