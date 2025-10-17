@@ -1,10 +1,10 @@
 # VIPAMIN: Visual Prompt Initialization via Embedding Selection and Subspace Expansion
 
-This repository contains the official PyTorch implementation for VIPAMIN: Visual Prompt Initialization via Embedding Selection and Subspace Expansion. Our work is based on Visual Prompt Tuning [VPT](https://github.com/KMnP/vpt), E2VPT: An Effective and Efficient Approach for Visual Prompt Tuning [E2VPT](https://github.com/ChengHan111/E2VPT), and Gated Prompt Tuning [GPT](https://github.com/ryongithub/GatedPromptTuning). We thank the great work of them. 
+This repository contains the official PyTorch implementation for NeurIPS 2025 VIPAMIN: Visual Prompt Initialization via Embedding Selection and Subspace Expansion. Our work is based on [Visual Prompt Tuning](https://github.com/KMnP/vpt), [E2VPT: An Effective and Efficient Approach for Visual Prompt Tuning](https://github.com/ChengHan111/E2VPT), and [Gated Prompt Tuning](https://github.com/ryongithub/GatedPromptTuning). We thank the great work of them. 
 
 ## Quickstart
 
-1. Prepare datasets (Refer to [Datasets Preparation](###datasets-preperation))
+1. Prepare datasets (Refer to [Datasets Preparation](#datasets-preparation))
 2. Generate config files (`gen_yaml_*.py`)
 3. **Generate VIPAMIN-initialized prompts** (`load_match.py` and `load_orth.py`)
 4. Hyperparameter sweep (`tune_vipamin_indiv.py`)
@@ -65,7 +65,7 @@ See `env_setup.sh`
 - Others:
   - OUTPUT_DIR: output dir of the final model and logs
 
-### Datasets preperation:
+### Datasets preparation
 
 Follow the instructions in [VPT](https://github.com/KMnP/vpt) for more details. We follow the same datasets setup as VPT and E2VPT. For FGVC, refer to this [link](https://github.com/KMnP/vpt/issues/74#issuecomment-2744912188)
 
